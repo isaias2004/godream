@@ -1,7 +1,13 @@
-import Image from "next/image";
+import Header from "../app/components/Header"
+import Body from "../app/components/Body"
+import Footer from "./components/Footer"
 
 export default function Home() {
   return (
-    <h1>Hola</h1>
-  );
+    <div className="min-h-screen flex flex-col bg-[#FFFFFF]">
+      <Header />
+      <Body/>
+      <Footer/>
+    </div>
+  )
 }
