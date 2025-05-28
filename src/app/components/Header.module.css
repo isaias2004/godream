@@ -1,0 +1,15 @@
+@keyframes slideFromLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.animateSlideFromLeft {
+    opacity: 0;
+    animation: slideFromLeft 1s ease-out 9ms forwards;
+} 
