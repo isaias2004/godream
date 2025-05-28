@@ -20,9 +20,6 @@ export default function DiagonalSection() {
                     />
                 </div>
                 <div className="absolute inset-0 bg-gradient-to-br from-black/50 to-transparent">
-                    <div className="relative z-10 p-4 md:p-8 h-full flex items-center">
-                        <h2 className="text-3xl md:text-7xl font-bold text-white">BRASIL</h2>
-                    </div>
                 </div>
             </div>
 
@@ -37,9 +34,7 @@ export default function DiagonalSection() {
                     />
                 </div>
                 <div className="absolute inset-0 bg-gradient-to-br from-black/50 to-transparent">
-                    <div className="relative z-10 p-4 md:p-8 h-full flex items-center">
-                        <h2 className="text-3xl md:text-7xl font-bold text-white">CATARATAS</h2>
-                    </div>
+                    
                 </div>
             </div>
 
@@ -54,9 +49,6 @@ export default function DiagonalSection() {
                     />
                 </div>
                 <div className="absolute inset-0 bg-gradient-to-br from-black/50 to-transparent">
-                    <div className="relative z-10 p-4 md:p-8 h-full flex items-center">
-                        <h2 className="text-3xl md:text-7xl font-bold text-white">LA COSTA</h2>
-                    </div>
                 </div>
             </div>
 

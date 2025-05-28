@@ -2,6 +2,7 @@ import Header from './components/Header'
 import Body from "./components/Body"
 import Footer from "./components/Footer"
 import DiagonalSection from './components/DiagonalSection'
+import Cards from './components/Cards'
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <Header />
       <DiagonalSection />
       <Body/>
+      <Cards/>
       <Footer/>
     </div>
   )
