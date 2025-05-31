@@ -1,26 +1,29 @@
 import Image from 'next/image';
-import travelLogo from '../images/prueba.jpg';
+import { robotoCondensed } from '@/lib/fonts';
 import styles from './Header.module.css';
+import logo from '../images/viajes-y-turismo-ok.png';
 
 export default function Header() {
     return (
-        <div className="w-full">
-            <div className={styles.animateSlideFromLeft}>
-                <Image 
-                    src={travelLogo}
-                    alt="Travel and Tourism Logo"
-                    className="w-full h-auto object-cover"
-                    priority
-                    quality={100}
-                />
+        <div className="w-full flex flex-col items-center">
+            {/* Pantalla completa para título y logo */}
+            <div className="w-full h-screen flex flex-col items-center justify-center">
+                <h1 className={`${robotoCondensed.className} text-8xl font-bold text-center text-black uppercase mb-25`}>
+                    Bienvenido a
+                </h1>
+                <div className={styles['logo-animado']}>
+                  <Image
+                      src={logo}
+                      alt="Travel and Tourism Logo"
+                      className="object-cover"
+                      priority
+                      quality={100}
+                      width={500}
+                      height={500}
+                  />
+                </div>
             </div>
+           
         </div>
     )
-}
-
-// Add the styles to the document
-if (typeof document !== 'undefined') {
-    const styleSheet = document.createElement('style');
-    styleSheet.textContent = styles;
-    document.head.appendChild(styleSheet);
 }

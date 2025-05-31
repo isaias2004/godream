@@ -12,4 +12,20 @@
 .animateSlideFromLeft {
     opacity: 0;
     animation: slideFromLeft 1s ease-out 9ms forwards;
+}
+
+@keyframes slideInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-200px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.logo-animado {
+  animation: slideInLeft 1.2s cubic-bezier(0.23, 1, 0.32, 1) both;
 } 
+
