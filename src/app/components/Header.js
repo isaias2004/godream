@@ -8,7 +8,7 @@ export default function Header() {
         <div className="w-full flex flex-col items-center">
             {/* Pantalla completa para título y logo */}
             <div className="w-full h-screen flex flex-col items-center justify-center">
-                <h1 className={`${robotoCondensed.className} text-8xl font-bold text-center text-black uppercase mb-25`}>
+                <h1 className={`${robotoCondensed.className} text-7xl font-bold text-center text-black uppercase mb-25`}>
                     Bienvenido a
                 </h1>
                 <div className={styles['logo-animado']}>
@@ -18,8 +18,8 @@ export default function Header() {
                       className="object-cover"
                       priority
                       quality={100}
-                      width={500}
-                      height={500}
+                      width={400}
+                      height={400}
                   />
                 </div>
             </div>
